@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(18, 177, 136);
+  overflow: hidden;
+  font-family: "Microsoft YaHei Light";
+}
+
+#LeaveWorldSafe-set-location {
+  display: block;
+  text-align: center;
+}
+
+#LeaveWorldSafe-set-location-inputwindows{
+  width: 100%;
+  position: fixed;
+  top: 30%;
+  line-height: 60px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows p{
+  color: rgb(255,255,255);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-inputvalue{
+  text-align: center;
+  color: rgb(254, 212, 38);
+  font-size: 32px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  text-shadow: rgb(0 0 0 / 80%) 0px 1px 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-buttonchoose {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 65px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 27px;
+  font-weight: 10;
+  letter-spacing: 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-buttonchoose-submitbutton{
+  display: block;
+  margin: auto auto 16px;
+  padding: 10px 0px;
+  border-radius: 49px;
+  font-size: 24px;
+  width: 80%;
+  border: none;
+  background-color: rgb(254, 212, 38);
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+#LeaveWorldSafe-cheating-page{
+  display: none;
+}
+
+.LeaveWorldSafe-cheating-page-logo{
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 25%;
+  margin: 30px auto;
+}
+
+.LeaveWorldSafe-warning-page-logo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 10%;
+  margin: 30px auto;
+}
+
+#LeaveWorldSafe-WarningInfo{
+  display: none;
+}
+
+#LeaveWorldSafe-cheating-page-info-area{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+}
+
+#LeaveWorldSafe-cheating-page-info-area-location{
+  text-align: center;
+
+}
+
+.info {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  font-size: 32px;
+  color: rgb(254, 212, 38);
+  font-weight: 500;
+
+}
+
+.info2 {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 60%;
+  font-size: 32px;
+  color: rgb(254, 212, 38);
+  font-weight: 500;
+
+}
+
+@media (min-width: 1267px) {
+  #LeaveWorldSafe-set-location{
+    display: none;
+  }
+
+  #LeaveWorldSafe-cheating-page{
+    display: none;
+  }
+
+  #LeaveWorldSafe-WarningInfo{
+    display: block;
+  }
+
+}
+

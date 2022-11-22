@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(18, 177, 136);
+  overflow: hidden;
+  font-family: "Microsoft YaHei Light";
+}
+
+/* 沒L用 */
+
+/* #LeaveWorldSafe-set-location {
+  display: block;
+  text-align: center;
+}
+
+#LeaveWorldSafe-set-location-inputwindows{
+  width: 100%;
+  position: fixed;
+  top: 30%;
+  line-height: 60px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows p{
+  color: rgb(255,255,255);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-inputvalue{
+  text-align: center;
+  color: rgb(254, 212, 38);
+  font-size: 32px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  text-shadow: rgb(0 0 0 / 80%) 0px 1px 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-buttonchoose {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 65px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 27px;
+  font-weight: 10;
+  letter-spacing: 2px;
+}
+
+#LeaveWorldSafe-set-location-inputwindows-buttonchoose-submitbutton{
+  display: block;
+  margin: auto auto 16px;
+  padding: 10px 0px;
+  border-radius: 49px;
+  font-size: 24px;
+  width: 80%;
+  border: none;
+  background-color: rgb(254, 212, 38);
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+  cursor: pointer;
+} */
+
+#LeaveWorldSafe-cheating-page{
+  display: none;
+}
+
+.LeaveWorldSafe-cheating-page-logo{
+  position: absolute;
+  left: 50%;
+  top: 18px;
+  transform: translateX(-50%);
+  /* right: 0; */
+  width: 61px;
+  /* margin: 30px auto; */
+}
+
+
+.LeaveWorldSafe-warning-page-logo {
+  position: relative;
+  left: -191px;
+  right: 0;
+  width: 15%;
+  margin: 30px auto;
+}
+
+#LeaveWorldSafe-WarningInfo{
+  display: none;
+}
+
+#LeaveWorldSafe-cheating-page-info-area{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+}
+
+#LeaveWorldSafe-cheating-page-info-area-location{
+  text-align: center;
+
+}
+
+.info {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  font-size: 32px;
+  color: rgb(254, 212, 38);
+  font-weight: 500;
+
+}
+
+.info2 {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 60%;
+  font-size: 32px;
+  color: rgb(254, 212, 38);
+  font-weight: 500;
+
+}
+
+@media (min-width: 1267px) {
+  .dtadlo{
+    display: none;
+  }
+
+  .vcpass-qrcode{
+    display: none;
+  }
+
+  #LeaveWorldSafe-WarningInfo{
+    display: block;
+  }
+
+  .LeaBTN{
+    display: none;
+  }
+
+  .Cross {
+    display: none;
+  }
+
+}
+
+.ls-headf{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-shrink: 0;
+
+}
+
+.Cross{
+  height: 24px;
+  margin: 31px;
+  cursor: pointer;
+}
+
+.fl-tag1{
+  margin-top: 14px;
+}
+
+.vcpass-qrcode{
+  position: absolute;
+  left: 51%;
+  width: 315px;
+  height: 376px;
+  border: 1px rgb(4, 82, 151);
+  transform: translateX(-50%);
+  background-color: rgb(4, 82, 151);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 14px;
+  text-shadow: rgb(0 0 0 / 80%) 0px 1px 2px;
+  font-weight: 500;
+  font-family: Rubik;
+}
+
+.vcpass-qrcode-regular{
+  background-color: rgb(255, 255, 255);
+  width: 286px;
+  height: 318px;
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+}
+
+.vcpass-qrcode-status{
+  background-color: rgb(4, 82, 151);
+  width: 246px;
+  height: 38px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.vcpass-qrcode-status p {
+  margin: 9px;
+}
+
+.qrcode{
+  width: 284px;
+  height: 250px;
+  background-image: url("./static/vcqr5.png");
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 58px;
+}
+.dtadlo{
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 390px;
+  font-size: 18px;
+  font-weight: 500;
+
+
+}
+
+.dt{
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0 0 0 / 80%) 0px 1px 2px;
+  font-family: Rubik;
+}
+
+.lo{
+  color: rgb(254, 212, 38);
+  text-shadow: rgb(0 0 0 / 80%) 0px 1px 2px;
+  font-family: Rubik;
+
+}
+
+.LeaBTN{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* margin-top: 689px; */
+  bottom: 27px;
+  width: 247px;
+  height: 50px;
+  background-color: rgb(254, 212, 38);
+  border-radius: 34px;
+  font-family: Rubik;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.timecal{ 
+  width: 150px;
+  height: 39px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 34px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  right: 10px;
+  text-align: center;
+  line-height: 37px;
+  font-size: 19px;
+}
+
+.LeaBTN p { 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 13px;
+}
+
+.blingbling{
+  color: rgb(208, 56, 57);
+  font-size: 27px;
+  animation: shame 3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes shame {
+  from{
+    color: rgb(208, 56, 57);
+  }
+
+  10% {
+    color: transparent;
+  }
+
+  20% {
+    color: rgb(208, 56, 57);
+  }
+
+  30% {
+    color: transparent;
+  }
+
+  40% {
+    color: rgb(208, 56, 57);
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  60% {
+    color: rgb(208, 56, 57);
+  }
+  
+  70% {
+    color: transparent;
+  }
+
+  80% {
+    color: rgb(208, 56, 57);
+  }
+
+  90% {
+    color: transparent;
+  }
+
+  to {
+    color: rgb(208, 56, 57);
+
+  }
+
+
+
+
+}
+
