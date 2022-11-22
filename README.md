@@ -33,6 +33,8 @@
 1.點擊地點名稱，即可自定義到訪地點
 2.離場按鈕可清空頁面緩存
 
+LSH-NEW中為下方演示的頁面，root為半途而廢的設定頁面(偷懶ヾ(*´∀ ˋ*)ﾉ)
+
 在綫演示地址(Codepen 基於安全理由，將於codepen進行演示):https://codepen.io/020darling/pen/dyKdgxK
 
 
