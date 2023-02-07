@@ -43,12 +43,19 @@ window.onload = function () {
     let hr = DateAndTime.getHours();
     let min = DateAndTime.getMinutes();
 
-    //刪除小時/分鐘沒有0
+    //刪除小時/分鐘/日期沒有0
     if (hr < 10) {
         hr = "0" + hr;
     }
     if (min < 10) {
         min = "0" + min;
+    }
+    
+    if (month < 10) {
+        month = "0" + month;
+    }
+    if (day < 10) {
+        day = "0" + day;
     }
 
 
